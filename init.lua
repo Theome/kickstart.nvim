@@ -233,6 +233,7 @@ require('lazy').setup({
   "folke/tokyonight.nvim",
   "catppuccin/nvim",
   'projekt0n/github-nvim-theme',
+  'maxmx03/solarized.nvim',
   
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
