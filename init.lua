@@ -84,6 +84,9 @@ I hope you enjoy your Neovim journey,
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
+-- Always use light mode
+vim.opt.background = 'light'
+
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
@@ -239,6 +242,7 @@ require('lazy').setup({
   'catppuccin/nvim',
   'projekt0n/github-nvim-theme',
   'maxmx03/solarized.nvim',
+  'Mofiqul/vscode.nvim',
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
